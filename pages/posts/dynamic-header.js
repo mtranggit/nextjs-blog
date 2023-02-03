@@ -1,8 +1,8 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import { DynamicHeader } from '../../components/DynamicHeader';
-import AEMText from '../../components/text';
-// import { AEMText } from '../../components/AEMText';
+// import AEMText from '../../components/text';
+import { AEMText } from '../../components/AEMText';
 // import { StaticHeader } from '../../components/StaticHeader';
 import Layout from '../../components/layout';
 
