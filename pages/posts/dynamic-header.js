@@ -11,7 +11,7 @@ export default function FirstPost() {
       <Head>
         <title>Dynamic Header</title>;
       </Head>
-      <h1>Dynamic Header!</h1>
+      <h1>Dynamic Header!!</h1>
       <DynamicHeader />
       {/* <StaticHeader /> */}
       <p>Welcome to Dynamic Header post!</p>
