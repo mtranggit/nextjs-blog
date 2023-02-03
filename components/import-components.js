@@ -12,14 +12,14 @@
  */
 
 import { MapTo } from '@adobe/aem-react-editable-components'
-import AEMText from './text'
-import AEMTitle from './title'
-import AEMImage from './image'
+// import AEMText from './text'
+// import AEMTitle from './title'
+// import AEMImage from './image'
 
 // import components with dynamic
-// import { AEMText } from './AEMText'
-// import { AEMTitle } from './AEMTitle'
-// import { AEMImage } from './AEMImage'
+import { AEMText } from './AEMText'
+import { AEMTitle } from './AEMTitle'
+import { AEMImage } from './AEMImage'
 
 const { NEXT_PUBLIC_AEM_SITE } = process.env;
 
