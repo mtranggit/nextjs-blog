@@ -6,6 +6,9 @@
     "start": "next start"
   },
   "dependencies": {
+    "@adobe/aem-headless-client-js": "^3.1.1",
+    "@adobe/aem-react-editable-components": "^2.0.0",
+    "@adobe/aem-spa-page-model-manager": "^1.4.0",
     "date-fns": "^2.29.3",
     "gray-matter": "^4.0.3",
     "next": "latest",

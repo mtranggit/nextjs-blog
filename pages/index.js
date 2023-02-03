@@ -16,6 +16,7 @@ export async function getStaticProps() {
 }
 
 export default function Home({ allPostsData }) {
+
   return (
     <Layout home>
       <Head>
@@ -42,6 +43,13 @@ export default function Home({ allPostsData }) {
               </small>
             </li>
           ))}
+          <li className={utilStyles.listItem} key="dyna-header">
+            <Link href={`/posts/dynamic-header`}>Dynamic Header</Link>
+            <br/>
+            <small className={utilStyles.lightText}>
+              <Date dateString={`2023-02-03`} />
+            </small>
+          </li>
         </ul>
       </section>
     </Layout>
