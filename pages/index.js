@@ -23,7 +23,7 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Welcome to my blog!!!</p>
+        <p>Welcome to my blog*</p>
         {/* <ProfileImage /> */}
         <p>
           (This is a sample website - you’ll be building a site like this on{' '}
